@@ -25,5 +25,5 @@ Create a `luigi.cfg` file in the current directory to setup all the parameters i
 and change the path to the list of files and the output folder if needed.
 Then you can launch the script as follows:
 
-`python -m luigi --module ApkmonkScraper ScrapeApps --workers 4`
+`python -m luigi --module ApkmonkScraper ScrapeApps --list-apps-file=list_of_apps.txt --output-folder=/Users/gorla/apkmonk --workers 4 --local-scheduler`
 
