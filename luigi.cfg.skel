@@ -1,0 +1,10 @@
+[core]
+parallel-scheduling = True
+log_level = INFO
+
+[ScrapeApps]
+list_apps_file = list_of_apps.txt
+output_folder = /Users/gorla/apkmonk
+
+[ScrapeApkMonkForApp]
+headless = False
